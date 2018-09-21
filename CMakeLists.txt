@@ -3,4 +3,4 @@ project(search_engine)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(search_engine main.cpp trie.cpp trie.h)
+add_executable(search_engine main.cpp trie.cpp trie.h flow.h error_codes.h)
