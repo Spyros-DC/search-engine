@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/error_codes.h
+
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp
+iostream
+-
+trie.h
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.h
+util.h
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.h
+
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.h
+memory
+-
+vector
+-
+algorithm
+-
+boost/optional.hpp
+-
+ostream
+-
+error_codes.h
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/error_codes.h
+
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.cpp
+util.h
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.h
+
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.h
+string
+-
+
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/main.cpp
+iostream
+-
+core/trie.h
+/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.h
+

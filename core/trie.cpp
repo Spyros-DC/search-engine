@@ -1,76 +1,125 @@
+#include <iostream>
 #include "trie.h"
+#include "util.h"
 
 using namespace core;
 using namespace std;
+using namespace util;
 
-result trie::insert_trie_char(char char1) {
 
-    v_unique_ptr.push_back(make_unique<trie>(char1));
+void trie::insert_trie_char(char char1) {
 
-    return result::ok;
+    v_trie.push_back(trie(char1));
+
 }
 
-
-
+/*
+ * returns element
+ * as optional of iterator to vector of tries
+ * */
 auto trie::find_trie(char char1) {
-    auto f = [char1](std::unique_ptr<trie>& p_elem){ return (p_elem->get() == char1); };
+    auto f = [char1](trie& trie1){ return (trie1.get() == char1); };
 
-    auto it = std::find_if(v_unique_ptr.begin(), v_unique_ptr.end(), f);
+    auto it = std::find_if(v_trie.begin(), v_trie.end(), f);
 
-    if(it == v_unique_ptr.end())
+    if(it == v_trie.end())
         return boost::optional<decltype(it)>{};
     else
         return boost::optional<decltype(it)>{it};
 }
 
-result trie::insert_trie_char_if(char char1) {
 
-    if(auto trie1_it = find_trie(char1)){
-        ;
-    }else
+/*
+ * returns a reference,
+ * to the element that was inserted,
+ * or to the element that was already present
+ * */
+auto& trie::insert_trie_char_if(char char1) {
+    auto trie1_it = find_trie(char1);
+
+    if(trie1_it){
+        return *trie1_it.get();
+    }else {
         insert_trie_char(char1);
+        return v_trie.back();
+    }
 
-    return result::ok;
 }
 
-result trie::insert_doc_id(doc_id& doc_id1) {
+void trie::insert_doc_id(const doc_id& doc_id1) {
     v_doc_id.push_back(doc_id1);
-    return result::ok;
+}
+
+/*
+ * traverse a trie with a token
+ * returns the last trie
+ * */
+trie& trie::traverse_trie(const string& token) {
+
+    if(token == "")
+        return *this;
+    auto it_trie = find_trie(first_char(token));
+    if(it_trie){
+        std::cout << "--> " << (*it_trie.get()).value;
+        return (*it_trie.get()).traverse_trie(token.substr(1));
+    } else
+        return *this;
+
 }
 
 
-result core::insert_trie_token(trie& trie1, string str, doc_id doc_id1){
+/*
+ * inserts a token to trie,
+ * returns the last trie in the insertion,
+ * the one that has as value the last character of the token
+ * */
+trie& trie::insert_trie_token(const string& token, const doc_id doc_id1) {
 
-    if(str.size() == 0) {
-        trie1.insert_doc_id(doc_id1);
-        return result::ok;
+    assert(token.size() > 0);
+    trie& trie_next = insert_trie_char_if(first_char(token));
+
+    if(token.size() == 1) {
+        trie_next.insert_doc_id(doc_id1);
+        return trie_next;
+    }
+    else{
+        return trie_next.insert_trie_token(token.substr(1), doc_id1);
     }
 
-    trie1.insert_trie_char_if(*str.begin());
-    auto opt_it_p_trie = trie1.find_trie(*str.begin());
-    if(opt_it_p_trie){
-        //tail recursion
-        insert_trie_token( **opt_it_p_trie.get(), str.substr(1), doc_id1);
+}
+
+
+/*
+describe trie with depth first search
+*/
+void trie::describe_trie() {
+    cout << this->get() << "-->";
+    for(auto& elem: this->v_trie){
+        elem.describe_trie();
     }
-
-
+    cout << "\n";
 }
 
-core::trie& core::traverse_trie(trie& trie1, string str){
-    if(str.size() == 0)
-        return trie1;
-    auto opt_trie = trie1.find_trie(*str.begin());
-    if(opt_trie){
-        traverse_trie(**opt_trie.get(), str.substr(1));
-    }else{
-        return trie1;
+void trie::populate_doc_id(vector<doc_id>& v_doc_id1) {
+    v_doc_id1.insert(v_doc_id1.end(), v_doc_id.begin(), v_doc_id.end());
+    for(auto& elem: this->v_trie){
+        elem.populate_doc_id(v_doc_id1);
     }
 }
 
-vector<doc_id> core::find_docs_in_trie(trie& trie1, string str){
-    vector<doc_id> v_doc_id;
-    return v_doc_id;
+/*
+find document id's with depth first search
+*/
+std::vector<doc_id> trie::find_docs_id() {
+    vector<doc_id> v_doc_id1;
+    this->populate_doc_id(v_doc_id1);
+    return v_doc_id1;
 }
+
+
+
+
+
 
 
 
