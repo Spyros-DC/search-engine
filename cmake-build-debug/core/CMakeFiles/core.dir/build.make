@@ -57,33 +57,9 @@ include core/CMakeFiles/core.dir/progress.make
 # Include the compile flags for this target's objects.
 include core/CMakeFiles/core.dir/flags.make
 
-core/CMakeFiles/core.dir/main.cpp.o: core/CMakeFiles/core.dir/flags.make
-core/CMakeFiles/core.dir/main.cpp.o: ../core/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/CMakeFiles/core.dir/main.cpp.o"
-	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/main.cpp.o -c /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/main.cpp
-
-core/CMakeFiles/core.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/main.cpp.i"
-	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/main.cpp > CMakeFiles/core.dir/main.cpp.i
-
-core/CMakeFiles/core.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/main.cpp.s"
-	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/main.cpp -o CMakeFiles/core.dir/main.cpp.s
-
-core/CMakeFiles/core.dir/main.cpp.o.requires:
-
-.PHONY : core/CMakeFiles/core.dir/main.cpp.o.requires
-
-core/CMakeFiles/core.dir/main.cpp.o.provides: core/CMakeFiles/core.dir/main.cpp.o.requires
-	$(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.o.provides.build
-.PHONY : core/CMakeFiles/core.dir/main.cpp.o.provides
-
-core/CMakeFiles/core.dir/main.cpp.o.provides.build: core/CMakeFiles/core.dir/main.cpp.o
-
-
 core/CMakeFiles/core.dir/trie.cpp.o: core/CMakeFiles/core.dir/flags.make
 core/CMakeFiles/core.dir/trie.cpp.o: ../core/trie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/CMakeFiles/core.dir/trie.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object core/CMakeFiles/core.dir/trie.cpp.o"
 	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/trie.cpp.o -c /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp
 
 core/CMakeFiles/core.dir/trie.cpp.i: cmake_force
@@ -107,7 +83,7 @@ core/CMakeFiles/core.dir/trie.cpp.o.provides.build: core/CMakeFiles/core.dir/tri
 
 core/CMakeFiles/core.dir/util.cpp.o: core/CMakeFiles/core.dir/flags.make
 core/CMakeFiles/core.dir/util.cpp.o: ../core/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object core/CMakeFiles/core.dir/util.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object core/CMakeFiles/core.dir/util.cpp.o"
 	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/util.cpp.o -c /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.cpp
 
 core/CMakeFiles/core.dir/util.cpp.i: cmake_force
@@ -131,27 +107,25 @@ core/CMakeFiles/core.dir/util.cpp.o.provides.build: core/CMakeFiles/core.dir/uti
 
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/main.cpp.o" \
 "CMakeFiles/core.dir/trie.cpp.o" \
 "CMakeFiles/core.dir/util.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
-core/core: core/CMakeFiles/core.dir/main.cpp.o
-core/core: core/CMakeFiles/core.dir/trie.cpp.o
-core/core: core/CMakeFiles/core.dir/util.cpp.o
-core/core: core/CMakeFiles/core.dir/build.make
-core/core: core/CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable core"
+core/libcore.a: core/CMakeFiles/core.dir/trie.cpp.o
+core/libcore.a: core/CMakeFiles/core.dir/util.cpp.o
+core/libcore.a: core/CMakeFiles/core.dir/build.make
+core/libcore.a: core/CMakeFiles/core.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcore.a"
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core && $(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-core/CMakeFiles/core.dir/build: core/core
+core/CMakeFiles/core.dir/build: core/libcore.a
 
 .PHONY : core/CMakeFiles/core.dir/build
 
-core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/main.cpp.o.requires
 core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/trie.cpp.o.requires
 core/CMakeFiles/core.dir/requires: core/CMakeFiles/core.dir/util.cpp.o.requires
 

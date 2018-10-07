@@ -81,20 +81,72 @@ search-engine-tests/tests/CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o
 search-engine-tests/tests/CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o.provides.build: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o
 
 
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/flags.make
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o: ../core/trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o"
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/search-engine-tests/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o -c /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.i"
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/search-engine-tests/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp > CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.i
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.s"
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/search-engine-tests/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp -o CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.s
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.requires:
+
+.PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.requires
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.provides: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.requires
+	$(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.provides.build
+.PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.provides
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.provides.build: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o
+
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/flags.make
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o: ../core/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o"
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/search-engine-tests/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o -c /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.cpp
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.i"
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/search-engine-tests/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.cpp > CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.i
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.s"
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/search-engine-tests/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.cpp -o CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.s
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.requires:
+
+.PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.requires
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.provides: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.requires
+	$(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.provides.build
+.PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.provides
+
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.provides.build: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o
+
+
 # Object files for target runSearchTests
 runSearchTests_OBJECTS = \
-"CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o"
+"CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o" \
+"CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o" \
+"CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o"
 
 # External object files for target runSearchTests
 runSearchTests_EXTERNAL_OBJECTS =
 
 search-engine-tests/tests/runSearchTests: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o
+search-engine-tests/tests/runSearchTests: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o
+search-engine-tests/tests/runSearchTests: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o
 search-engine-tests/tests/runSearchTests: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make
 search-engine-tests/tests/runSearchTests: search-engine-tests/lib/googletest-master/googlemock/gtest/libgtestd.a
 search-engine-tests/tests/runSearchTests: search-engine-tests/lib/googletest-master/googlemock/gtest/libgtest_maind.a
 search-engine-tests/tests/runSearchTests: search-engine-tests/lib/googletest-master/googlemock/gtest/libgtestd.a
 search-engine-tests/tests/runSearchTests: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable runSearchTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable runSearchTests"
 	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/search-engine-tests/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runSearchTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -103,6 +155,8 @@ search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build: search-engine-tes
 .PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build
 
 search-engine-tests/tests/CMakeFiles/runSearchTests.dir/requires: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o.requires
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/requires: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o.requires
+search-engine-tests/tests/CMakeFiles/runSearchTests.dir/requires: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o.requires
 
 .PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/requires
 

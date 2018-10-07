@@ -30,7 +30,9 @@ auto trie::find_trie(char char1) {
 
 
 /*
- * returns a reference,
+ * inserts a trie if not present
+ * in the vector of tries,
+ * returns a reference
  * to the element that was inserted,
  * or to the element that was already present
  * */
@@ -38,7 +40,7 @@ auto& trie::insert_trie_char_if(char char1) {
     auto trie1_it = find_trie(char1);
 
     if(trie1_it){
-        return *trie1_it.get();
+        return it_to_trie(trie1_it);
     }else {
         insert_trie_char(char1);
         return v_trie.back();
@@ -56,14 +58,20 @@ void trie::insert_doc_id(const doc_id& doc_id1) {
  * */
 trie& trie::traverse_trie(const string& token) {
 
-    if(token == "")
-        return *this;
+    assert(token.size() > 0);
+
     auto it_trie = find_trie(first_char(token));
+
     if(it_trie){
-        std::cout << "--> " << (*it_trie.get()).value;
-        return (*it_trie.get()).traverse_trie(token.substr(1));
-    } else
+        if(token.substr(1).size() == 0){
+            return it_to_trie(it_trie);
+        }else{
+            std::cout << "--> " << it_to_trie(it_trie).value;
+            return it_to_trie(it_trie).traverse_trie(token.substr(1));
+        }
+    }else
         return *this;
+
 
 }
 
@@ -108,7 +116,7 @@ void trie::populate_doc_id(vector<doc_id>& v_doc_id1) {
 }
 
 /*
-find document id's with depth first search
+find document id's of a trie with depth first search
 */
 std::vector<doc_id> trie::find_docs_id() {
     vector<doc_id> v_doc_id1;

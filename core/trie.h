@@ -39,7 +39,7 @@ namespace core {
 
 
     private:
-        //the core structure a vector of tries
+        //the core structure, a vector of tries
         std::vector<trie> v_trie;
         const char value;
 
@@ -58,16 +58,6 @@ namespace core {
 
     };
 
-    //template for breadth first search
-//    template<typename Result, typename... Args>
-//    std::vector<doc_id> breadth_first_search(trie trie1, std::vector<doc_id> doc_id1, std::function<Result(Args...)> f) {
-//        //base case
-//        if(trie1.size_of_children() == 0)
-//            return doc_id1;
-//        //action in vector of document id's
-//
-//        //recursion
-//    }
 
 
 }

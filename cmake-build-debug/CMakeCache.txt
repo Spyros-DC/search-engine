@@ -226,6 +226,9 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 //Value Computed by CMake
 core_BINARY_DIR:STATIC=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core
 
+//Dependencies for target
+core_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 core_SOURCE_DIR:STATIC=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core
 
@@ -289,6 +292,9 @@ search_engine_BINARY_DIR:STATIC=/mnt/c/cygwin64/home/tsimboulis/lab/search-engin
 
 //Value Computed by CMake
 search_engine_SOURCE_DIR:STATIC=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine
+
+//Dependencies for target
+trie_LIB_DEPENDS:STATIC=
 
 
 ########################

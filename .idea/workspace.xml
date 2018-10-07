@@ -3,11 +3,11 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="search_engine" targetName="gtest_main" />
-      <config projectName="search_engine" targetName="core" />
-      <config projectName="search_engine" targetName="gtest" />
       <config projectName="search_engine" targetName="runSearchTests" />
-      <config projectName="search_engine" targetName="gmock_main" />
+      <config projectName="search_engine" targetName="gtest" />
+      <config projectName="search_engine" targetName="core" />
       <config projectName="search_engine" targetName="gmock" />
+      <config projectName="search_engine" targetName="gmock_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,13 +17,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d918d2b-d740-459d-934d-4f8c95fba841" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/util.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/util.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/core.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/core/core.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/core/core.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/search-engine-tests.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/search-engine-tests.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/runSearchTests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search-engine-tests/tests/runSearchTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search_engine.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search_engine.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/core/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/trie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/trie.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/trie.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/trie.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/util.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-tests/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-tests/tests/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.h" beforeDir="false" afterPath="$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,58 +73,62 @@
     <session id="-498094597">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5333" />
-          <entry key="h" value="1693" />
-          <entry key="txt" value="229" />
+          <entry key="cpp" value="5646" />
+          <entry key="h" value="1803" />
+          <entry key="txt" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="222" />
-          <entry key="ObjectiveC" value="7026" />
+          <entry key="CMakeLists.txt" value="307" />
+          <entry key="ObjectiveC" value="7449" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="4" />
+          <entry key="a" value="1" />
+          <entry key="cc" value="1" />
+          <entry key="cpp" value="8" />
           <entry key="env" value="1" />
-          <entry key="h" value="15" />
+          <entry key="h" value="19" />
           <entry key="hpp" value="3" />
           <entry key="search_engine (disassembly)" value="4" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="5" />
+          <entry key="CMakeLists.txt" value="7" />
           <entry key="Disassembly" value="4" />
-          <entry key="ObjectiveC" value="22" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="ObjectiveC" value="31" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.cidr.testingFrameworks.usages">
         <counts>
-          <entry key="Google Test" value="1" />
+          <entry key="Google Test" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/trie.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+            <state relative-caret-position="836">
+              <caret line="103" column="23" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -96,71 +136,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/error_codes.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="35" />
+            <state relative-caret-position="133">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/core/util.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="190">
+              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search-engine-tests/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search-engine-tests/lib/googletest-master/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#61#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,10 +160,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/trie.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="1007">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#61#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/util.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/flow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="e#1222#1251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,9 +226,14 @@
     <findStrings>
       <find>error_codes</find>
       <find>insert_trie_token</find>
+      <find>run_all</find>
+      <find>(*it_trie.get())</find>
+      <find>get()</find>
     </findStrings>
     <replaceStrings>
       <replace>result</replace>
+      <replace>it_to_trie(trie_it)</replace>
+      <replace>it_to_trie(it_trie)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -199,17 +246,17 @@
         <option value="$PROJECT_DIR$/flow.h" />
         <option value="$PROJECT_DIR$/trie.h" />
         <option value="$PROJECT_DIR$/trie.cpp" />
-        <option value="$PROJECT_DIR$/core/util.cpp" />
-        <option value="$PROJECT_DIR$/core/util.h" />
-        <option value="$PROJECT_DIR$/core/trie.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/core/trie.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/core/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/search-engine-tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.h" />
-        <option value="$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.cpp" />
         <option value="$PROJECT_DIR$/search-engine-tests/tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.cpp" />
+        <option value="$PROJECT_DIR$/core/trie.h" />
+        <option value="$PROJECT_DIR$/core/util.cpp" />
+        <option value="$PROJECT_DIR$/core/util.h" />
+        <option value="$PROJECT_DIR$/core/trie.cpp" />
+        <option value="$PROJECT_DIR$/core/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -221,9 +268,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -244,6 +290,11 @@
             <path>
               <item name="search_engine" type="b2602c69:ProjectViewProjectNode" />
               <item name="search-engine" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="search_engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="search-engine" type="462c0819:PsiDirectoryNode" />
               <item name="search-engine-tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,7 +311,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
@@ -287,18 +338,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.runSearchTests">
+  <component name="RunManager" selected="Application.core">
     <configuration name="foo.test_eq" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="search_engine" TARGET_NAME="runSearchTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="search_engine" RUN_TARGET_NAME="runSearchTests" TEST_CLASS="foo" TEST_METHOD="test_eq" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="search_engin_tests.basic" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="search_engine" TARGET_NAME="runSearchTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="search_engine" RUN_TARGET_NAME="runSearchTests" TEST_CLASS="search_engin_tests" TEST_METHOD="basic" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="search_engine" TARGET_NAME="core" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="search_engine" RUN_TARGET_NAME="core">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/core/CMakeLists.txt" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="search_engine" TARGET_NAME="core" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -337,9 +393,11 @@
       <item itemvalue="Application.gtest_main" />
       <item itemvalue="Application.runSearchTests" />
       <item itemvalue="Google Test.foo.test_eq" />
+      <item itemvalue="Google Test.search_engin_tests.basic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.search_engin_tests.basic" />
         <item itemvalue="Google Test.foo.test_eq" />
       </list>
     </recent_temporary>
@@ -355,7 +413,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537452021793</updated>
       <workItem from="1537452023167" duration="47390000" />
-      <workItem from="1537800524531" duration="11823000" />
+      <workItem from="1537800524531" duration="12567000" />
+      <workItem from="1537943241887" duration="7730000" />
+      <workItem from="1538234755464" duration="2266000" />
+      <workItem from="1538488609789" duration="1844000" />
+      <workItem from="1538650041047" duration="149000" />
+      <workItem from="1538737960491" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="flow">
       <created>1537524833984</created>
@@ -378,20 +441,32 @@
     <history-entry file="foo_test_eq - 2018.09.25 at 17h 24m 00s.xml">
       <configuration name="foo.test_eq" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="search_engin_tests_basic - 2018.09.26 at 09h 45m 45s.xml">
+      <configuration name="search_engin_tests.basic" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="search_engin_tests_basic - 2018.09.26 at 09h 46m 51s.xml">
+      <configuration name="search_engin_tests.basic" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="search_engin_tests_basic - 2018.09.26 at 09h 47m 03s.xml">
+      <configuration name="search_engin_tests.basic" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="search_engin_tests_basic - 2018.09.26 at 10h 34m 16s.xml">
+      <configuration name="search_engin_tests.basic" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59213000" />
+    <option name="totallyTimeSpent" value="72619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11886994" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.17727272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.13326226" />
+      <window_info id="Structure" order="1" sideWeight="0.50359714" side_tool="true" weight="0.18456884" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.36103895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3968421" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47505423" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39473686" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,7 +476,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.32987013" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32947367" />
       <window_info anchor="bottom" id="File Transfer" order="11" weight="0.32987013" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.31789473" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.31639344" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -424,14 +499,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/core/trie.cpp</url>
-          <line>11</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/core/trie.cpp</url>
-          <line>103</line>
+          <line>111</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
@@ -449,35 +519,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/l5.env" />
-    <entry file="file://$PROJECT_DIR$/core/error_codes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/bits/unique_ptr.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="290" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/flow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#1222#1251#0" expanded="true" />
-            <element signature="e#1621#1661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/util.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -516,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/util.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/c++/5/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -537,40 +575,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/trie.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding>
-            <element signature="e#61#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/main.cpp" />
     <entry file="file://$PROJECT_DIR$/search-engine-tests/lib/googletest-master/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/search-engine-tests/lib/googletest-master/googletest/src/gtest_main.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="35" />
+        <state relative-caret-position="646">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -583,18 +602,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="57">
+          <caret line="3" column="99" selection-start-line="3" selection-start-column="99" selection-end-line="3" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.h">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/core/libcore.a">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+          <folding>
+            <element signature="e#61#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/trie.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#61#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/util.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/flow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#1222#1251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search-engine-tests/tests/search_engin_tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -603,11 +675,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/trie.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+        <state relative-caret-position="836">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="23" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/error_codes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>

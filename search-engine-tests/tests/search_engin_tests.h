@@ -3,9 +3,10 @@
 #define SEARCH_ENGINE_SEARCH_ENGIN_TESTS_H
 
 
-class search_engin_tests {
+#include <gtest/gtest.h>
+#include "../../core/trie.h"
 
-};
+
 
 
 #endif //SEARCH_ENGINE_SEARCH_ENGIN_TESTS_H

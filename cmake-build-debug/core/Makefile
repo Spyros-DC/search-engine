@@ -169,33 +169,6 @@ core/fast:
 	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
 .PHONY : core/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 trie.o: trie.cpp.o
 
 .PHONY : trie.o
@@ -263,9 +236,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... trie.o"
 	@echo "... trie.i"
 	@echo "... trie.s"

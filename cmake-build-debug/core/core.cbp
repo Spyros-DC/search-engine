@@ -18,10 +18,10 @@
          </MakeCommands>
       </Target>
       <Target title="core">
-         <Option output="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core/core" prefix_auto="0" extension_auto="0" />
+         <Option output="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core/libcore.a" prefix_auto="0" extension_auto="0" />
          <Option working_dir="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core" />
          <Option object_output="./" />
-         <Option type="1" />
+         <Option type="2" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
@@ -41,10 +41,10 @@
          </MakeCommands>
       </Target>
       <Target title="core/fast">
-         <Option output="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core/core" prefix_auto="0" extension_auto="0" />
+         <Option output="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core/libcore.a" prefix_auto="0" extension_auto="0" />
          <Option working_dir="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core" />
          <Option object_output="./" />
-         <Option type="1" />
+         <Option type="2" />
          <Option compiler="gcc" />
          <Compiler>
             <Add directory="/usr/include" />
@@ -64,15 +64,6 @@
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/error_codes.h">
-         <Option target="core"/>
-      </Unit>
-      <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/flow.h">
-         <Option target="core"/>
-      </Unit>
-      <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/main.cpp">
-         <Option target="core"/>
-      </Unit>
       <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp">
          <Option target="core"/>
       </Unit>

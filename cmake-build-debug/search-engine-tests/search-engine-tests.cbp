@@ -276,6 +276,18 @@
          </MakeCommands>
       </Target>
       </Build>
+      <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp">
+         <Option target="runSearchTests"/>
+      </Unit>
+      <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.h">
+         <Option target="runSearchTests"/>
+      </Unit>
+      <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.cpp">
+         <Option target="runSearchTests"/>
+      </Unit>
+      <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.h">
+         <Option target="runSearchTests"/>
+      </Unit>
       <Unit filename="/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/search-engine-tests/lib/googletest-master/googlemock/src/gmock-all.cc">
          <Option target="gmock"/>
       </Unit>

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/runSearchTests.dir/search_engin_tests.cpp.o CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o  -o runSearchTests ../lib/googletest-master/googlemock/gtest/libgtest.a ../lib/googletest-master/googlemock/gtest/libgtest_main.a ../lib/googletest-master/googlemock/gtest/libgtest.a -pthread 

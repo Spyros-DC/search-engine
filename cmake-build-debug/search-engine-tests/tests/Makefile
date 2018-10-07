@@ -169,6 +169,60 @@ runSearchTests/fast:
 	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build
 .PHONY : runSearchTests/fast
 
+__/__/core/trie.o: __/__/core/trie.cpp.o
+
+.PHONY : __/__/core/trie.o
+
+# target to build an object file
+__/__/core/trie.cpp.o:
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.o
+.PHONY : __/__/core/trie.cpp.o
+
+__/__/core/trie.i: __/__/core/trie.cpp.i
+
+.PHONY : __/__/core/trie.i
+
+# target to preprocess a source file
+__/__/core/trie.cpp.i:
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.i
+.PHONY : __/__/core/trie.cpp.i
+
+__/__/core/trie.s: __/__/core/trie.cpp.s
+
+.PHONY : __/__/core/trie.s
+
+# target to generate assembly for a file
+__/__/core/trie.cpp.s:
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/trie.cpp.s
+.PHONY : __/__/core/trie.cpp.s
+
+__/__/core/util.o: __/__/core/util.cpp.o
+
+.PHONY : __/__/core/util.o
+
+# target to build an object file
+__/__/core/util.cpp.o:
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.o
+.PHONY : __/__/core/util.cpp.o
+
+__/__/core/util.i: __/__/core/util.cpp.i
+
+.PHONY : __/__/core/util.i
+
+# target to preprocess a source file
+__/__/core/util.cpp.i:
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.i
+.PHONY : __/__/core/util.cpp.i
+
+__/__/core/util.s: __/__/core/util.cpp.s
+
+.PHONY : __/__/core/util.s
+
+# target to generate assembly for a file
+__/__/core/util.cpp.s:
+	cd /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug && $(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/__/__/core/util.cpp.s
+.PHONY : __/__/core/util.cpp.s
+
 search_engin_tests.o: search_engin_tests.cpp.o
 
 .PHONY : search_engin_tests.o
@@ -209,6 +263,12 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
+	@echo "... __/__/core/trie.o"
+	@echo "... __/__/core/trie.i"
+	@echo "... __/__/core/trie.s"
+	@echo "... __/__/core/util.o"
+	@echo "... __/__/core/util.i"
+	@echo "... __/__/core/util.s"
 	@echo "... search_engin_tests.o"
 	@echo "... search_engin_tests.i"
 	@echo "... search_engin_tests.s"

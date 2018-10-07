@@ -84,7 +84,7 @@ core/preinstall:
 core/CMakeFiles/core.dir/all:
 	$(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depend
 	$(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target core"
 .PHONY : core/CMakeFiles/core.dir/all
 
 # Include target in all.
@@ -94,7 +94,7 @@ all: core/CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 core/CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles 0
 .PHONY : core/CMakeFiles/core.dir/rule
@@ -182,7 +182,7 @@ search-engine-tests/lib/googletest-master/googlemock/preinstall: search-engine-t
 search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all: search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target gmock"
 .PHONY : search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Include target in all.
@@ -220,7 +220,7 @@ search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/a
 search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target gmock_main"
 .PHONY : search-engine-tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Include target in all.
@@ -277,7 +277,7 @@ search-engine-tests/lib/googletest-master/googlemock/gtest/preinstall:
 search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target gtest"
 .PHONY : search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -314,7 +314,7 @@ clean: search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gte
 search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all: search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target gtest_main"
 .PHONY : search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -370,7 +370,7 @@ search-engine-tests/tests/CMakeFiles/runSearchTests.dir/all: search-engine-tests
 search-engine-tests/tests/CMakeFiles/runSearchTests.dir/all: search-engine-tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/depend
 	$(MAKE) -f search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build.make search-engine-tests/tests/CMakeFiles/runSearchTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target runSearchTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15 "Built target runSearchTests"
 .PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/all
 
 # Include target in all.
@@ -380,7 +380,7 @@ all: search-engine-tests/tests/CMakeFiles/runSearchTests.dir/all
 
 # Build rule for subdir invocation for target.
 search-engine-tests/tests/CMakeFiles/runSearchTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 search-engine-tests/tests/CMakeFiles/runSearchTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/CMakeFiles 0
 .PHONY : search-engine-tests/tests/CMakeFiles/runSearchTests.dir/rule

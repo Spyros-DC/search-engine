@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/main.cpp" "/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core/CMakeFiles/core.dir/main.cpp.o"
   "/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/trie.cpp" "/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core/CMakeFiles/core.dir/trie.cpp.o"
   "/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/core/util.cpp" "/mnt/c/cygwin64/home/tsimboulis/lab/search-engine/cmake-build-debug/core/CMakeFiles/core.dir/util.cpp.o"
   )
