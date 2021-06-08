@@ -3,4 +3,6 @@ project(search_engine)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(search_engine main.cpp trie.cpp trie.h)
+
+add_subdirectory(core)
+add_subdirectory(search-engine-tests)
